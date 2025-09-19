@@ -1,0 +1,36 @@
+# Environments
+.env
+.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# VSCode
+.vscode/
+
+# Cache
+cache/
+catboost_info/
+
+# Logs
+pandasai.log
+
+# Reports
+credit_analysis_report.md
+credit_analysis_report_updated.md
+
+# Temporary files
+*.tmp
+*.swp
+
+# Datasets
+dataset_paper.zip
+dataset_paper/
+
+# Other
+pdf_content.txt
+requirements_temp.txt
