@@ -33,12 +33,6 @@ CR-Agent是一个基于多智能体架构的信用风险评估系统，通过协
 - **requirements.txt** - Python依赖包列表
 - **__init__.py** - Python包初始化文件
 
-### 数据文件
-
-- **data/** - 数据文件夹
-  - **financial_train.csv** - 训练数据集
-  - **financial_test.csv** - 测试数据集
-  - **financial_validation.csv** - 验证数据集
 
 ## 快速开始
 
@@ -99,14 +93,6 @@ optimized_agent = OptimizedCreditAgent()
 4. **数据驱动** - 基于真实的金融数据集进行训练和验证
 5. **可扩展性** - 支持添加新的数据源和分析模块
 
-## 数据集说明
-
-项目使用的金融数据集包含：
-- 训练集：用于模型训练
-- 测试集：用于模型评估
-- 验证集：用于模型调优
-
-数据集包含多维度的企业财务指标，支持全面的信用风险评估。
 
 ## 注意事项
 
